@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-public class Task10_Test {
+public class Task10Test {
 
     WebDriver driver;
 

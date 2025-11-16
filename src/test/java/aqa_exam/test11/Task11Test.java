@@ -1,5 +1,9 @@
 package aqa_exam.test11;
 
+import aqa_exam.task11.DriverProvider;
+import aqa_exam.task11.Generator;
+import aqa_exam.task11.OutputForm;
+import aqa_exam.task11.Sender;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

@@ -8,7 +8,7 @@ import org.testng.IInvokedMethodListener;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import static aqa_course.task11.DriverProvider.getDriver;
+import static aqa_exam.task11.DriverProvider.getDriver;
 
 public class CustomAllureListener implements ITestListener, IInvokedMethodListener {
     @Override

@@ -1,13 +1,12 @@
 package aqa_exam.test8;
 
-import aqa_course.task2.Task2Classes;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class Task8 {
+public class Task8Test {
 
-    Task2Classes testMethods = new Task2Classes();
+    Task8Classes testMethods = new Task8Classes();
 
     @Test
     public void testAdd(){

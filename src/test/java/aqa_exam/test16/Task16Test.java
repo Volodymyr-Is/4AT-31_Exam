@@ -1,6 +1,6 @@
 package aqa_exam.test16;
 
-import aqa_course.task16.ConfigReader;
+import aqa_exam.task16.ConfigReader;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;

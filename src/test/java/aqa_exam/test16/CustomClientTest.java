@@ -1,7 +1,7 @@
 package aqa_exam.test16;
 
-import aqa_course.task16.TrelloBo;
-import aqa_course.task16.TrelloCreateCheckListResModel;
+import aqa_exam.task16.TrelloBo;
+import aqa_exam.task16.TrelloCreateCheckListResModel;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

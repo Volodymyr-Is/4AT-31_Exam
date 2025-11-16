@@ -7,7 +7,7 @@ import org.sikuli.script.Screen;
 
 import java.io.File;
 
-import static aqa_course.task21.ScreenHelper.makeScreenshot;
+import static aqa_exam.task21.ScreenHelper.makeScreenshot;
 
 public class Task21Test {
     @Test

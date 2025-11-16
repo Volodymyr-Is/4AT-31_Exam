@@ -1,6 +1,6 @@
 package aqa_exam.test12;
 
-import aqa_course.task12.SubmitFormBusinessObject;
+import aqa_exam.task12.SubmitFormBusinessObject;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

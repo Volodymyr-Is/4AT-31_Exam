@@ -1,9 +1,9 @@
 package aqa_exam.test14;
 
-import aqa_course.task11.DriverProvider;
-import aqa_course.task12.SubmitFormBusinessObject;
-import aqa_course.task13.CustomListener;
-import aqa_course.task14.CustomAllureListener;
+import aqa_exam.task11.DriverProvider;
+import aqa_exam.task12.SubmitFormBusinessObject;
+import aqa_exam.task14.CustomAllureListener;
+import aqa_exam.task14.CustomListener;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
