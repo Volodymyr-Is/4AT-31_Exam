@@ -1,4 +1,4 @@
-package aqa_exam.task11;
+package aqa_exam.test11;
 
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;

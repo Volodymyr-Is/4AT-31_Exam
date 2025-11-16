@@ -1,4 +1,4 @@
-package aqa_exam.task8;
+package aqa_exam.test8;
 
 import aqa_course.task2.Task2Classes;
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package aqa_exam.task11;
+package aqa_exam.test11;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
