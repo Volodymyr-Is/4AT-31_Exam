@@ -1,5 +1,6 @@
 package aqa_exam.task6;
 
+import aqa_exam.db.HibernateUtil;
 import org.hibernate.Session;
 
 public class Task6 {

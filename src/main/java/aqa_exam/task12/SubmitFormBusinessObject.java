@@ -1,5 +1,7 @@
 package aqa_exam.task12;
 
+import aqa_exam.task11.Generator;
+import aqa_exam.task11.OutputForm;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

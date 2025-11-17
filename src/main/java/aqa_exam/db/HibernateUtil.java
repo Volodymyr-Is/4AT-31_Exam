@@ -1,4 +1,4 @@
-package aqa_exam.task6;
+package aqa_exam.db;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

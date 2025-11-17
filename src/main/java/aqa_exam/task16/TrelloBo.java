@@ -1,5 +1,6 @@
 package aqa_exam.task16;
 
+import aqa_exam.ConfigReader;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.testng.asserts.SoftAssert;
 
