@@ -11,9 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class SavoraHomePage {
-    private WebDriver driver;
-    private WebDriverWait wait;
+public class SavoraHomePage extends BasePage{
+//    private WebDriver driver;
+//    private WebDriverWait wait;
 
     @FindBy(xpath = "//*[@id=\"radix-«ri»\"]")
     WebElement userMenuIcon;
@@ -22,11 +22,11 @@ public class SavoraHomePage {
     WebElement loginButton;
 //    CustomWebElementButton loginButton;
 
-    public SavoraHomePage() {
-        driver = DriverPool.getDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        PageFactory.initElements(driver, this);
-    }
+//    public SavoraHomePage() {
+//        driver = DriverPool.getDriver();
+//        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+//        PageFactory.initElements(driver, this);
+//    }
 
     public void openPage() {
         DriverPool.getDriver().get("https://savora-sm.vercel.app");

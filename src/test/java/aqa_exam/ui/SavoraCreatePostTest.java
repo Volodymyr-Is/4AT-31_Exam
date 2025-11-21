@@ -12,23 +12,20 @@ public class SavoraCreatePostTest {
     public static Object[][] createPostDataProvider() {
         User generatedUser = UserProvider.generateUser();
 
-        return new Object[][]{{
-            "john", "1111", "create post about coctail"
-        },{
-            "bob", "2222", "create post about salad"
-        },{
-             generatedUser.getEmail(), generatedUser.getPassword(), "create post about salad"
-        }};
+        return new Object[][]{
+//                { "john", "1111", "create post about coctail" },
+//                { "bob", "2222", "create post about salad" },
+                { generatedUser.getEmail(), generatedUser.getPassword(), "create post about salad" }
+        };
     }
 
     //test 1 - validate post created
     @Test(dataProvider = "createPostDataProvider")
     public void savoraCreatePostTest(String login, String password, String postText) {
 
-        new SavoraBO().login().createPost();
+        new SavoraBO()
+                .login(login, password)
+                .verifyUserLogged()
+                .createPost(postText);
     }
-
-    //test 2 - validate post liked and saved
-
-    //test 3 - validate post deleted
 }
