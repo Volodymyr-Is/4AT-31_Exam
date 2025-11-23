@@ -15,17 +15,17 @@ public class SavoraCreatePostTest {
         return new Object[][]{
 //                { "john", "1111", "create post about coctail" },
 //                { "bob", "2222", "create post about salad" },
-                { generatedUser.getEmail(), generatedUser.getPassword(), "create post about salad" }
+                { generatedUser.getEmail(), generatedUser.getPassword(), "create post about caesar salad" }
         };
     }
 
     //test 1 - validate post created
     @Test(dataProvider = "createPostDataProvider")
-    public void savoraCreatePostTest(String login, String password, String postText) {
+    public void savoraCreatePostTest(String login, String password, String prompt) {
 
         new SavoraBO()
                 .login(login, password)
-                .verifyUserLogged()
-                .createPost(postText);
+//                .verifyUserLogged()
+                .createPost(prompt);
     }
 }

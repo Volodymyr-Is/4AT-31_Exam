@@ -7,10 +7,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class SavoraPostDeleteTest {
-    //test 2 - validate post liked and saved
+
+    //test 3 - validate post deleted
     @Test
     public void savoraPostDeleteTest() {
-
-        new SavoraBO().login("", "").createPost("");
+        User generatedUser = UserProvider.generateUser();
+        new SavoraBO().login(generatedUser.getEmail(), generatedUser.getPassword()).deletePost("d7d514e3-e0da-4676-b342-99babbcaad81");
     }
 }

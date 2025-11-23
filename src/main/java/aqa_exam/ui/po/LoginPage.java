@@ -1,5 +1,7 @@
 package aqa_exam.ui.po;
 
+import aqa_exam.ui.po.wrapper.CustomWebElementButton;
+import aqa_exam.ui.po.wrapper.CustomWebElementInput;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,5 +19,6 @@ public class LoginPage extends BasePage {
 
     public void inputEmail(String email) {
         wait.until(ExpectedConditions.visibilityOf(emailInput)).sendKeys(email);
+//        emailInput.type(email);
     }
 }

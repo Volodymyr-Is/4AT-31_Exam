@@ -2,6 +2,7 @@ package aqa_exam.ui.po;
 
 import aqa_exam.DriverPool;
 import aqa_exam.ui.po.wrapper.CustomWebElementButton;
+import aqa_exam.ui.po.wrapper.CustomWebElementLinkButton;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,5 +39,6 @@ public class SavoraHomePage extends BasePage{
 
         wait.until(ExpectedConditions.visibilityOf(userMenuIcon)).click();
         wait.until(ExpectedConditions.elementToBeClickable(loginButton)).click();
+
     }
 }

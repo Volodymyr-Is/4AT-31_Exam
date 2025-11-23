@@ -1,19 +1,14 @@
 package aqa_exam.ui.bo;
 
 import aqa_exam.DriverPool;
+import aqa_exam.ui.po.PostPage;
+import aqa_exam.ui.po.GeneratePostPage;
 import aqa_exam.ui.po.LoginPage;
 import aqa_exam.ui.po.SavoraHomePage;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class SavoraBO {
     SavoraHomePage savoraHomePage = new SavoraHomePage();
-
-    public SavoraBO createPost(String postText) {
-//        todo
-        return this;
-    }
 
     public SavoraBO login(String email, String password) {
         savoraHomePage.openPage();
@@ -25,6 +20,29 @@ public class SavoraBO {
         loginPage.passwordInput.sendKeys(password);
         loginPage.loginButton.click();
         loginPage.homeButton.click();
+        return this;
+    }
+
+    public SavoraBO createPost(String prompt) {
+        GeneratePostPage generatePostPage = new GeneratePostPage();
+        generatePostPage.openPostGenerationPage();
+        generatePostPage.inputPrompt(prompt);
+        generatePostPage.generateButton.click();
+        return this;
+    }
+
+    public SavoraBO deletePost(String id) {
+        PostPage PostPage = new PostPage();
+        PostPage.openPostPage(id);
+        PostPage.deletePost();
+        return this;
+    }
+
+    public SavoraBO likeAndSavePost(String id) {
+        PostPage PostPage = new PostPage();
+        PostPage.openPostPage(id);
+        PostPage.likePost();
+        PostPage.savePost();
         return this;
     }
 
