@@ -12,6 +12,6 @@ public class SavoraPostDeleteTest {
     @Test
     public void savoraPostDeleteTest() {
         User generatedUser = UserProvider.generateUser();
-        new SavoraBO().login(generatedUser.getEmail(), generatedUser.getPassword()).deletePost("d7d514e3-e0da-4676-b342-99babbcaad81");
+        new SavoraBO().login(generatedUser.getEmail(), generatedUser.getPassword()).deletePost("9c312d7b-9847-4856-a7a1-36789d279e54");
     }
 }

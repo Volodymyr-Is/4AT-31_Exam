@@ -17,9 +17,9 @@ public class SavoraBO {
 
 
         loginPage.inputEmail(email);
-        loginPage.passwordInput.sendKeys(password);
-        loginPage.loginButton.click();
-        loginPage.homeButton.click();
+        loginPage.passwordInput.waitForMeAndInput(password);
+        loginPage.loginButton.waitForMeAndClick();
+        loginPage.homeButton.waitForMeAndClick();
         return this;
     }
 
@@ -27,7 +27,7 @@ public class SavoraBO {
         GeneratePostPage generatePostPage = new GeneratePostPage();
         generatePostPage.openPostGenerationPage();
         generatePostPage.inputPrompt(prompt);
-        generatePostPage.generateButton.click();
+        generatePostPage.generateButton.waitForMeAndClick();
         return this;
     }
 

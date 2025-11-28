@@ -12,6 +12,6 @@ public class SavoraPostLikeAndSaveTest {
     @Test
     public void savoraPostLikeAndSaveTest() {
         User generatedUser = UserProvider.generateUser();
-        new SavoraBO().login(generatedUser.getEmail(), generatedUser.getPassword()).likeAndSavePost("d7d514e3-e0da-4676-b342-99babbcaad81");
+        new SavoraBO().login(generatedUser.getEmail(), generatedUser.getPassword()).likeAndSavePost("c2ab8b9c-51d5-44a5-9269-561fb74a5037");
     }
 }

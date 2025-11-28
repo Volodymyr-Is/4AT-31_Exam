@@ -4,19 +4,90 @@
         "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <!-- Database connection properties - Driver, URL, user, password -->
+
+        <!-- Підключення буде перезаписано програмно з conf.prop -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://db.bjzdwfxtkooelgwvdliy.supabase.co:5432/postgres?user=postgres&password=[YOUR_PASSWORD]</property>
-        <property name="hibernate.connection.username">savora-sm</property>
-        <property name="hibernate.connection.password"></property>
-        <property name="hibernate.connection.pool_size">1</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/temp</property>
+        <property name="hibernate.connection.username">temp</property>
+        <property name="hibernate.connection.password">temp</property>
+
+        <!-- Пул з'єднань — краще HikariCP -->
+        <property name="hibernate.connection.provider_class">org.hibernate.hikaricp.internal.HikariCPConnectionProvider</property>
+        <property name="hibernate.hikari.maximumPoolSize">15</property>
+        <property name="hibernate.hikari.idleTimeout">300000</property>
+
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
 
+        <!-- Твоя сутність -->
         <mapping class="aqa_exam.db.User"/>
-<!--        <mapping class="aqa_course.task6.User"/>-->
-<!--        <mapping class="aqa_course.task6.Address"/>-->
+
     </session-factory>
 </hibernate-configuration>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+
+<!--        &lt;!&ndash; Підключення до Supabase (PostgreSQL) &ndash;&gt;-->
+<!--        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+
+<!--        &lt;!&ndash; JDBC URL від Supabase &ndash;&gt;-->
+<!--        <property name="hibernate.connection.url">-->
+<!--&lt;!&ndash;            jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:6543/postgres?user=postgres.bjzdwfxtkooelgwvdliy&password=&ndash;&gt;-->
+<!--            jdbc:postgresql://db.bjzdwfxtkooelgwvdliy.supabase.co:6543/postgres?user=postgres.bjzdwfxtkooelgwvdliy&password=-->
+<!--        </property>-->
+
+<!--        <property name="hibernate.connection.username">postgres.bjzdwfxtkooelgwvdliy</property>-->
+<!--        <property name="hibernate.connection.password"></property>-->
+
+<!--        &lt;!&ndash; Рекомендовані налаштування для Supabase &ndash;&gt;-->
+<!--        <property name="hibernate.connection.pool_size">10</property>-->
+<!--        <property name="hibernate.current_session_context_class">thread</property>-->
+<!--        <property name="hibernate.show_sql">true</property>-->
+<!--        <property name="hibernate.format_sql">true</property>-->
+
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>-->
+<!--        &lt;!&ndash; або новіша версія, якщо використовуєш Hibernate 6+ &ndash;&gt;-->
+<!--        &lt;!&ndash; <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property> &ndash;&gt;-->
+
+<!--        &lt;!&ndash; На продакшні краще validate або none, але для розробки підходить update &ndash;&gt;-->
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+
+<!--        &lt;!&ndash; Додай всі свої ентіті &ndash;&gt;-->
+<!--        <mapping class="aqa_exam.db.User"/>-->
+
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->
+
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+<!--        &lt;!&ndash; Database connection properties - Driver, URL, user, password &ndash;&gt;-->
+<!--        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="hibernate.connection.url">jdbc:postgresql://db.bjzdwfxtkooelgwvdliy.supabase.co:5432/postgres?user=postgres&password=[YOUR_PASSWORD]</property>-->
+<!--        <property name="hibernate.connection.username">savora-sm</property>-->
+<!--        <property name="hibernate.connection.password"></property>-->
+<!--        <property name="hibernate.connection.pool_size">1</property>-->
+<!--        <property name="hibernate.current_session_context_class">thread</property>-->
+<!--        <property name="hibernate.show_sql">true</property>-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>-->
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+
+<!--        <mapping class="aqa_exam.db.User"/>-->
+<!--&lt;!&ndash;        <mapping class="aqa_course.task6.User"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="aqa_course.task6.Address"/>&ndash;&gt;-->
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->
