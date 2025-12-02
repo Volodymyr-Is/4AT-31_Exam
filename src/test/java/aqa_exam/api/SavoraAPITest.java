@@ -21,16 +21,6 @@ import static io.restassured.RestAssured.given;
 
 public class SavoraAPITest {
 
-    //test 1 - validate post created
-//    @Test
-//    public void savoraCreatePostTest(){
-////        new SavoraAPIBO().login().createPost();
-//    }
-
-    //test 2 - validate post liked and saved
-
-    //test 3 - validate post deleted
-
     @BeforeTest
     public void setup(){
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
@@ -63,6 +53,7 @@ public class SavoraAPITest {
 
         String postId = extractUuid(body);
 
+        //test 1 - validate post created
         if (!postId.isEmpty()) {
             Assert.assertNotNull(postId);
         } else {
@@ -75,6 +66,9 @@ public class SavoraAPITest {
             throw new RuntimeException(e);
         }
 
+        //test 2 - validate post liked and saved
+
+        //test 3 - validate post deleted
         Response deletePost = given()
                 .header("Next-Action", "40bd3e770533d34356f50627ce104895cab5ba672f")
                 .header("Next-Router-State-Tree", "%5B%22%22%2C%7B%22children%22%3A%5B%22dashboard%22%2C%7B%22children%22%3A%5B%22post%22%2C%7B%22children%22%3A%5B%5B%22id%22%2C%22162928c1-c536-479a-a791-e01bf8b08df4%22%2C%22d%22%5D%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2C%22%2Fdashboard%2Fpost%2F162928c1-c536-479a-a791-e01bf8b08df4%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D")

@@ -9,17 +9,17 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <io.appium.version>9.5.0</io.appium.version>
         <selenium.java>4.34.0</selenium.java>
         <testng.version>7.8.0</testng.version>
-        <aspectj.weaver>1.9.9.1</aspectj.weaver><!--        appium-->
+        <aspectj.weaver>1.9.22.1</aspectj.weaver><!--        appium-->
         <guava.version>33.0.0-jre</guava.version><!--        selenium-->
         <fasterxml.version>2.16.0</fasterxml.version>
-        <allure.version>2.25.0</allure.version>
+        <allure.version>2.30.0</allure.version>
     </properties>
 
     <dependencies>
@@ -221,7 +221,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <argLine>
-                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.24/aspectjweaver-1.9.24.jar
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.weaver}/aspectjweaver-${aspectj.weaver}.jar"
                     </argLine>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>

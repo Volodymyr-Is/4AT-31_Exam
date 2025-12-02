@@ -1,4 +1,4 @@
-package aqa_exam.task14;
+package aqa_exam;
 
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
@@ -8,13 +8,15 @@ import org.testng.IInvokedMethodListener;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import static aqa_exam.task11.DriverProvider.getDriver;
+import static aqa_exam.DriverPool.getDriver;
 
 public class CustomAllureListener implements ITestListener, IInvokedMethodListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         System.out.println("Test Success: " + result.getName());
         ITestListener.super.onTestSuccess(result);
+        makeScreenshotAttachment();
+        makeDOMAttachment();
     }
 
     @Override

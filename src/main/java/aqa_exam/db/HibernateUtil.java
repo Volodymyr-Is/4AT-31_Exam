@@ -13,18 +13,12 @@ public class HibernateUtil {
 
     private static SessionFactory buildSessionFactory() {
         try {
-            // 1. Створюємо Configuration і завантажуємо hibernate.cfg.xml
             Configuration configuration = new Configuration().configure();
 
-            // 2. Перезаписуємо чутливі властивості з conf.prop
             configuration.setProperty("hibernate.connection.url", ConfigReader.getProp("supabase.url"));
             configuration.setProperty("hibernate.connection.username", ConfigReader.getProp("supabase.user"));
             configuration.setProperty("hibernate.connection.password", ConfigReader.getProp("supabase.password"));
 
-            // (Опціонально) Якщо в cfg.xml немає <mapping>, можна додати тут:
-            // configuration.addAnnotatedClass(User.class);
-
-            // 3. Будуємо SessionFactory
             StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                     .applySettings(configuration.getProperties())
                     .build();
