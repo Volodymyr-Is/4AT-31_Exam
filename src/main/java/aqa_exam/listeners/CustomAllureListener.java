@@ -1,6 +1,8 @@
-package aqa_exam;
+package aqa_exam.listeners;
 
 import io.qameta.allure.Attachment;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.IInvokedMethod;
@@ -11,9 +13,12 @@ import org.testng.ITestResult;
 import static aqa_exam.DriverPool.getDriver;
 
 public class CustomAllureListener implements ITestListener, IInvokedMethodListener {
+
+    private static final Logger LOGGER = LogManager.getLogger(CustomAllureListener.class);
+
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Test Success: " + result.getName());
+        LOGGER.info("Test Success: " + result.getName() + ". Attaching screenshot and DOM to Allure report.");
         ITestListener.super.onTestSuccess(result);
         makeScreenshotAttachment();
         makeDOMAttachment();
@@ -21,7 +26,7 @@ public class CustomAllureListener implements ITestListener, IInvokedMethodListen
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Test Failure: " + result.getName());
+        LOGGER.error("Test Failure: " + result.getName() + ". Attaching screenshot and DOM to Allure report.");
         ITestListener.super.onTestFailure(result);
         makeScreenshotAttachment();
         makeDOMAttachment();
@@ -29,12 +34,13 @@ public class CustomAllureListener implements ITestListener, IInvokedMethodListen
 
     @Attachment(value="Page screenshot", type="image/png")
     private byte[] makeScreenshotAttachment(){
-        System.out.println("makeScreenShot");
+        LOGGER.debug("Attempting to capture screenshot...");
         return ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.BYTES);
     }
 
     @Attachment(value="{0}", type="text/plain")
     private String makeDOMAttachment() {
+        LOGGER.debug("Attempting to capture DOM source.");
         return getDriver().getPageSource();
     }
 
@@ -46,5 +52,4 @@ public class CustomAllureListener implements ITestListener, IInvokedMethodListen
             makeDOMAttachment();
         }
     }
-
 }

@@ -33,6 +33,5 @@ public class DriverPool {
 
     public static void main(String[] args) {
         getDriver().get("https://www.google.com/");
-        System.out.println("End...");
     }
 }

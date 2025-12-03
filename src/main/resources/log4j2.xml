@@ -6,7 +6,7 @@
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
         </Console>
         <!-- File Appender -->
-        <File name="FileAppender" fileName="aqa_course.txt" append="true">
+        <File name="FileAppender" fileName="aqa_exam_logs.txt" append="true">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
         </File>
     </Appenders>

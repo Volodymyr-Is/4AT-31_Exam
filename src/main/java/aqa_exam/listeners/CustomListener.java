@@ -1,44 +1,46 @@
-package aqa_exam;
+package aqa_exam.listeners;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.*;
 
 public class CustomListener implements ITestListener, ISuiteListener, IExecutionListener {
-//    ITestListener method (3, 4); ISuiteListener, IExecutionListener,IInvoke...(3, 6)
 
+    private static final Logger LOGGER = LogManager.getLogger(CustomListener.class);
 
     @Override
     public void onStart(ITestContext context) {
-        System.out.println("On Test Start: " + context.getName());
+        LOGGER.info("On Test Start: " + context.getName());
         ITestListener.super.onStart(context);
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        System.out.println("On Test Finish: " + context.getName());
+        LOGGER.info("On Test Finish: " + context.getName());
         ITestListener.super.onFinish(context);
     }
 
     @Override
     public void onStart(ISuite suite) {
-        System.out.println("On Suite Start: " + suite.getName());
+        LOGGER.info("On Suite Start: " + suite.getName());
         ISuiteListener.super.onStart(suite);
     }
 
     @Override
     public void onFinish(ISuite suite) {
-        System.out.println("On Suite Finish: " + suite.getName());
+        LOGGER.info("On Suite Finish: " + suite.getName());
         ISuiteListener.super.onFinish(suite);
     }
 
     @Override
     public void onExecutionStart() {
-        System.out.println("On Execution Start");
+        LOGGER.info("On Execution Start");
         IExecutionListener.super.onExecutionStart();
     }
 
     @Override
     public void onExecutionFinish() {
-        System.out.println("On Execution Finish");
+        LOGGER.info("On Execution Finish");
         IExecutionListener.super.onExecutionFinish();
     }
 }

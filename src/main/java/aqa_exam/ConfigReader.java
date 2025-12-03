@@ -18,8 +18,4 @@ public class ConfigReader {
     public static String getProp(String key){
         return properties.getProperty(key);
     }
-
-    public static void main(String[] args) {
-        getProp("trello_key");
-    }
 }

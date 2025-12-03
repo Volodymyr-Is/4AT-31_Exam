@@ -1,7 +1,7 @@
 package aqa_exam.ui;
 
-import aqa_exam.CustomAllureListener;
-import aqa_exam.CustomListener;
+import aqa_exam.listeners.CustomAllureListener;
+import aqa_exam.listeners.CustomListener;
 import aqa_exam.db.User;
 import aqa_exam.db.UserProvider;
 import aqa_exam.ui.bo.SavoraBO;

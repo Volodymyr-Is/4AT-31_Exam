@@ -25,7 +25,6 @@ public class PostPage extends BasePage {
     public void openPostPage(String id) {
         WebElement postPageButton = getPostPageButton(id);
         wait.until(ExpectedConditions.visibilityOf(postPageButton)).click();
-//        postPageButton.waitForMeAndClick();
     }
 
     public WebElement getPostPageButton(String id) {
@@ -49,22 +48,16 @@ public class PostPage extends BasePage {
     }
 
     public void deletePost() {
-//        wait.until(ExpectedConditions.visibilityOf(deleteButton)).click();
         deleteButton.waitForMeAndClick();
         Alert alert = driver.switchTo().alert();
         alert.accept();
-//        deleteButton.click();
     }
 
     public void likePost() {
-//        wait.until(ExpectedConditions.visibilityOf(likeButton)).click();
-//        likeButton.click();
         likeButton.waitForMeAndClick();
     }
 
     public void savePost() {
-//        wait.until(ExpectedConditions.visibilityOf(saveButton)).click();
-//        saveButton.click();
         saveButton.waitForMeAndClick();
     }
 }
