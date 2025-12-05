@@ -53,7 +53,7 @@ public class SavoraAPITest {
         String postId = extractUuid(postBody);
 
         //test 1 - validate post created
-        if (postId != null && !postId.isEmpty()) { // Перевірка на null краща
+        if (postId != null && !postId.isEmpty()) {
             Assert.assertNotNull(postId, "Post ID should not be null after creation.");
             LOGGER.info("Test 1: Post created successfully. PostId: " + postId);
         } else {

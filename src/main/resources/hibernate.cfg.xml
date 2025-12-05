@@ -4,29 +4,49 @@
         "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-
-        <!-- Підключення буде перезаписано програмно з conf.prop -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/temp</property>
-        <property name="hibernate.connection.username">temp</property>
-        <property name="hibernate.connection.password">temp</property>
 
-        <!-- Пул з'єднань — краще HikariCP -->
-        <property name="hibernate.connection.provider_class">org.hibernate.hikaricp.internal.HikariCPConnectionProvider</property>
-        <property name="hibernate.hikari.maximumPoolSize">15</property>
-        <property name="hibernate.hikari.idleTimeout">300000</property>
-
-        <property name="hibernate.current_session_context_class">thread</property>
-        <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.format_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
 
-        <!-- Твоя сутність -->
         <mapping class="aqa_exam.db.User"/>
-
     </session-factory>
 </hibernate-configuration>
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+
+<!--        &lt;!&ndash; Підключення буде перезаписано програмно з conf.prop &ndash;&gt;-->
+<!--        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/temp</property>-->
+<!--        <property name="hibernate.connection.username">temp</property>-->
+<!--        <property name="hibernate.connection.password">temp</property>-->
+
+<!--        &lt;!&ndash; Пул з'єднань — краще HikariCP &ndash;&gt;-->
+<!--        <property name="hibernate.connection.provider_class">org.hibernate.hikaricp.internal.HikariCPConnectionProvider</property>-->
+<!--        <property name="hibernate.hikari.maximumPoolSize">15</property>-->
+<!--        <property name="hibernate.hikari.idleTimeout">300000</property>-->
+
+<!--        <property name="hibernate.current_session_context_class">thread</property>-->
+<!--        <property name="hibernate.show_sql">true</property>-->
+<!--        <property name="hibernate.format_sql">true</property>-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>-->
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+
+<!--        &lt;!&ndash; Твоя сутність &ndash;&gt;-->
+<!--        <mapping class="aqa_exam.db.User"/>-->
+
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->
+
+
 
 <!--<?xml version="1.0" encoding="UTF-8"?>-->
 <!--<!DOCTYPE hibernate-configuration PUBLIC-->
