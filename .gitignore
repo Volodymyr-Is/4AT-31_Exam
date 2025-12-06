@@ -42,3 +42,6 @@ secret_conf.prop
 
 ### Allure ###
 .allure
+
+### Chromedriver ###
+chromedriver
