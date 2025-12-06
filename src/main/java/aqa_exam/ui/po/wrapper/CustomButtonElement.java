@@ -39,4 +39,8 @@ public class CustomButtonElement {
         webElement.click();
         LOGGER.info("Clicked on element: " + webElement);
     }
+
+    public boolean isDisplayed(){
+        return webElement.isDisplayed();
+    }
 }

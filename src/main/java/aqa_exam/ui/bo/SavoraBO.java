@@ -17,6 +17,12 @@ public class SavoraBO {
     public SavoraBO login(String email, String password) {
         LOGGER.info("Starting login sequence for user: " + email);
 
+//        if (savoraHomePage.isUserLoggedIn()) {
+//            LOGGER.warn("User is already logged in. Performing forced logout first.");
+//            logout();
+//            LOGGER.warn("Forced logout complete.");
+//        }
+
         savoraHomePage.openPage();
         LOGGER.debug("Opened Savora Home Page.");
 
@@ -85,6 +91,17 @@ public class SavoraBO {
         }
 
         Assert.assertEquals(currentUrl, expectedUrl, "User not Logged in");
+        return this;
+    }
+
+    public SavoraBO logout() {
+
+        savoraHomePage.openPage();
+        LOGGER.debug("Opened Savora Home Page.");
+
+        savoraHomePage.logoutUser();
+        LOGGER.debug("Logout User.");
+
         return this;
     }
 }

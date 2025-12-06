@@ -15,6 +15,10 @@ public class SavoraPostDeleteTest {
     @Test
     public void savoraPostDeleteTest() {
         User generatedUser = UserProvider.generateUser();
-        new SavoraBO().login(generatedUser.getEmail(), generatedUser.getPassword()).deletePost("551015eb-77bd-4540-a050-c8b0ad6a9021");
+
+        new SavoraBO()
+                .logout() // Uncomment for Allure Report
+                .login(generatedUser.getEmail(), generatedUser.getPassword())
+                .deletePost("0d9f0e7b-8b5e-43e2-bce5-7d1bfa5956f2");
     }
 }

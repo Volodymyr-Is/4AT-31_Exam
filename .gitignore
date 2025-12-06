@@ -39,3 +39,6 @@ build/
 
 ### Secret Config ###
 secret_conf.prop
+
+### Allure ###
+.allure

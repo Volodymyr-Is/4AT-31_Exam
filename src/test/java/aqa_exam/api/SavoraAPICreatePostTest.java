@@ -22,7 +22,7 @@ public class SavoraAPICreatePostTest {
     @Test
     public void validatePostCreatedTest() {
         //test 1 - validate post created
-        String prompt = "create post about the best holiday destination: Maldives";
+        String prompt = "create post about the cake";
         String postId = savoraAPIBO.createPost(prompt);
 
         Assert.assertNotNull(postId, "Post ID must be present to confirm successful creation.");

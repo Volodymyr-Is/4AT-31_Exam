@@ -1,16 +1,17 @@
 package aqa_exam.ui.po;
 
+import aqa_exam.DriverPool;
 import aqa_exam.ui.po.wrapper.CustomButtonElement;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.Date;
 import java.util.List;
-
-import static aqa_exam.DriverPool.driver;
 
 public class PostPage extends BasePage {
     @FindBy(xpath = "//button[@type=\"button\"]")
@@ -49,7 +50,12 @@ public class PostPage extends BasePage {
 
     public void deletePost() {
         deleteButton.waitForMeAndClick();
-        Alert alert = driver.switchTo().alert();
+
+//        WebDriverWait wait = new WebDriverWait(DriverPool.getDriver(), Duration.ofSeconds(10));
+//        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+//        alert.accept();
+
+        Alert alert = DriverPool.getDriver().switchTo().alert();
         alert.accept();
     }
 

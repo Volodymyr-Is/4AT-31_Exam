@@ -15,6 +15,9 @@ public class SavoraPostLikeAndSaveTest {
     @Test
     public void savoraPostLikeAndSaveTest() {
         User generatedUser = UserProvider.generateUser();
-        new SavoraBO().login(generatedUser.getEmail(), generatedUser.getPassword()).likeAndSavePost("c2ab8b9c-51d5-44a5-9269-561fb74a5037");
+        new SavoraBO()
+                .logout() // Uncomment for Allure Report
+                .login(generatedUser.getEmail(), generatedUser.getPassword())
+                .likeAndSavePost("c2ab8b9c-51d5-44a5-9269-561fb74a5037");
     }
 }
