@@ -30,7 +30,7 @@ public class SavoraAPIBO {
         Response response = given()
                 .header("Next-Action", "60eb25a4c1381ebe74de93f0d78205b2e78ee627f5")
                 .header("Next-Router-State-Tree", "%5B%22%22%2C%7B%22children%22%3A%5B%22(landing)%22%2C%7B%22children%22%3A%5B%22login%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2C%22%2Flogin%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D")
-                .body("[\"john.test1.mail@gmail.com\",\"1qaz!QAZ\"]")
+                .body("[\"" + user.getEmail() + "\",\"" + user.getPassword() + "\"]")
                 .when()
                 .post(API_BASE_URL + "/login")
                 .then()
@@ -81,7 +81,7 @@ public class SavoraAPIBO {
     }
 
     public String updateBio(User user) {
-        LOGGER.info("Updating user bio for user ID: 233db10a-4217-4e1f-b41d-c40d3c804848");
+        LOGGER.info("Updating user bio for user ID: " + user.getId());
 
         String bioUUID = UUID.randomUUID().toString();
 
@@ -89,7 +89,7 @@ public class SavoraAPIBO {
                 .header("Next-Action", "7c94b01874049d39ba4ee2f69352fdd3188dc4aa3e")
                 .header("Next-Router-State-Tree", "%5B%22%22%2C%7B%22children%22%3A%5B%22dashboard%22%2C%7B%22children%22%3A%5B%22settings%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2C%22%2Fdashboard%2Fsettings%22%2C%22refresh%22%5D%7D%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%2Ctrue%5D")
                 .cookies(authCookies)
-                .body("[\"233db10a-4217-4e1f-b41d-c40d3c804848\",\"admin1\",\"Hello. I am test user! " + bioUUID + "\",null,\"Ukraine\"]")
+                .body("[\"" + user.getId() + "\",\"admin1\",\"Hello. I am test user! " + bioUUID + "\",null,\"Ukraine\"]")
                 .when()
                 .post(API_BASE_URL + "/dashboard/settings")
                 .then()

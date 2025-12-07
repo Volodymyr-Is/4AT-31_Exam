@@ -64,6 +64,7 @@ public class UserProvider {
 
     public static User generateUser() {
         User user = new User();
+        user.setId(UUID.fromString("233db10a-4217-4e1f-b41d-c40d3c804848"));
         user.setName("admin1");
         user.setEmail("john.test1.mail@gmail.com");
         user.setPassword("1qaz!QAZ");

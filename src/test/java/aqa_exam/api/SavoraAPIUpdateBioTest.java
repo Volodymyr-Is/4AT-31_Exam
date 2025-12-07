@@ -23,7 +23,6 @@ public class SavoraAPIUpdateBioTest {
     @Test
     public void validateBioUpdateTest() {
         //test 3 - validate bio updated
-        String newBioText = "Hello. I am test user! My new bio is verified with UUID:";
         String extractedUuid = savoraAPIBO.updateBio(testUser);
 
         Assert.assertNotNull(extractedUuid, "UUID must be returned to confirm the bio was successfully updated and verified.");

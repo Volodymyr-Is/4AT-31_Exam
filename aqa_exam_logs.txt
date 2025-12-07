@@ -2370,3 +2370,399 @@
 2025-12-06 17:27:38 INFO  CustomListener - On Test Finish: Exam
 2025-12-06 17:27:38 INFO  CustomListener - On Suite Finish: Default Suite
 2025-12-06 17:27:38 INFO  CustomListener - On Execution Finish
+2025-12-07 18:59:43 INFO  CustomListener - On Execution Start
+2025-12-07 18:59:43 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 18:59:43 INFO  CustomListener - On Test Start: Exam
+2025-12-07 18:59:44 INFO  SavoraAPIBO - Attempting login for user: john.test1.mail@gmail.com
+2025-12-07 18:59:52 INFO  SavoraAPIBO - Login successful. Cookies saved for subsequent requests.
+2025-12-07 18:59:52 INFO  SavoraAPIBO - Updating user bio for user ID: 233db10a-4217-4e1f-b41d-c40d3c804848
+2025-12-07 18:59:52 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 18:59:56 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 18:59:56 ERROR CustomAllureListener - Test Failure: validateBioUpdateTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 18:59:56 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 18:59:56 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 18:59:57 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 18:59:57 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 18:59:57 INFO  CustomListener - On Execution Finish
+2025-12-07 19:00:30 INFO  CustomListener - On Execution Start
+2025-12-07 19:00:30 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:00:30 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:00:31 INFO  SavoraAPIBO - Attempting login for user: john.test1.mail@gmail.com
+2025-12-07 19:00:34 INFO  SavoraAPIBO - Login successful. Cookies saved for subsequent requests.
+2025-12-07 19:00:34 INFO  SavoraAPIBO - Updating user bio for user ID: 233db10a-4217-4e1f-b41d-c40d3c804848
+2025-12-07 19:00:37 INFO  SavoraAPIBO - Bio updated successfully. Verified UUID: f3039b9d-b886-41b0-8211-2d7cfb9fd38e
+2025-12-07 19:00:37 INFO  CustomAllureListener - Test Success: validateBioUpdateTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:00:37 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:00:38 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:00:38 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:00:38 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:00:38 INFO  CustomListener - On Execution Finish
+2025-12-07 19:00:52 INFO  CustomListener - On Execution Start
+2025-12-07 19:00:52 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:00:52 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:00:53 INFO  SavoraAPIBO - Attempting login for user: john.test1.mail@gmail.com
+2025-12-07 19:00:55 INFO  SavoraAPIBO - Login successful. Cookies saved for subsequent requests.
+2025-12-07 19:00:55 INFO  SavoraAPIBO - Updating user bio for user ID: 233db10a-4217-4e1f-b41d-c40d3c804848
+2025-12-07 19:00:57 INFO  SavoraAPIBO - Bio updated successfully. Verified UUID: 4ec4e6a5-848f-4a33-9902-d338df2edae5
+2025-12-07 19:00:57 INFO  CustomAllureListener - Test Success: validateBioUpdateTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:00:57 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:00:59 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:00:59 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:00:59 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:00:59 INFO  CustomListener - On Execution Finish
+2025-12-07 19:17:30 INFO  CustomListener - On Execution Start
+2025-12-07 19:17:30 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:17:30 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:17:31 INFO  SavoraAPIBO - Attempting login for user: john.test1.mail@gmail.com
+2025-12-07 19:17:33 INFO  SavoraAPIBO - Login successful. Cookies saved for subsequent requests.
+2025-12-07 19:17:34 INFO  SavoraAPIBO - Updating user bio for user ID: 233db10a-4217-4e1f-b41d-c40d3c804848
+2025-12-07 19:17:35 INFO  SavoraAPIBO - Bio updated successfully. Verified UUID: ad3f56c3-69db-4061-8acd-e03a293cc67f
+2025-12-07 19:17:35 INFO  CustomAllureListener - Test Success: validateBioUpdateTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:17:35 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:17:37 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:17:38 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:17:38 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:17:38 INFO  CustomListener - On Execution Finish
+2025-12-07 19:18:47 INFO  CustomListener - On Execution Start
+2025-12-07 19:18:47 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:18:47 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:18:49 INFO  SavoraBO - Starting login sequence for user: john.test1.mail@gmail.com
+2025-12-07 19:18:52 DEBUG SavoraBO - Opened Savora Home Page.
+2025-12-07 19:18:52 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:18:52 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:18:53 INFO  CustomButtonElement - Element became visible. Waiting time: 65 ms.
+2025-12-07 19:18:53 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:18:53 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:18:53 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:18:53 INFO  CustomButtonElement - Element became visible. Waiting time: 27 ms.
+2025-12-07 19:18:53 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:18:53 DEBUG SavoraBO - Navigated to Login Page.
+2025-12-07 19:18:53 DEBUG CustomInputElement - Attempting to input text into element: john.test1.mail@gmail.com
+2025-12-07 19:18:53 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: email'
+2025-12-07 19:18:54 INFO  CustomInputElement - Input element became visible. Waiting time: 1066 ms.
+2025-12-07 19:18:54 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> id: email]. Text sent: john.test1.mail@gmail.com
+2025-12-07 19:18:54 DEBUG CustomInputElement - Attempting to input text into element: 1qaz!QAZ
+2025-12-07 19:18:54 DEBUG CustomInputElement - Waiting for input element to be visible: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> id: password]
+2025-12-07 19:18:54 INFO  CustomInputElement - Input element became visible. Waiting time: 25 ms.
+2025-12-07 19:18:54 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> id: password]. Text sent: 1qaz!QAZ
+2025-12-07 19:18:54 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:18:54 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:18:54 INFO  CustomButtonElement - Element became visible. Waiting time: 23 ms.
+2025-12-07 19:18:54 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:18:54 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:18:54 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:18:54 INFO  CustomButtonElement - Element became visible. Waiting time: 24 ms.
+2025-12-07 19:18:54 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:18:54 INFO  SavoraBO - Login sequence completed for user: john.test1.mail@gmail.com
+2025-12-07 19:18:54 INFO  SavoraBO - Starting post creation with prompt: create post about caesar salad
+2025-12-07 19:18:54 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:18:54 DEBUG CustomButtonElement - Waiting for element to be visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href="/dashboard/create-post/ai"]'
+2025-12-07 19:18:56 INFO  CustomButtonElement - Element became visible. Waiting time: 2076 ms.
+2025-12-07 19:18:56 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //a[@href="/dashboard/create-post/ai"]]
+2025-12-07 19:18:56 DEBUG SavoraBO - Navigated to Post Generation Page.
+2025-12-07 19:18:56 DEBUG CustomInputElement - Attempting to input text into element: create post about caesar salad
+2025-12-07 19:18:56 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: prompt'
+2025-12-07 19:18:59 INFO  CustomInputElement - Input element became visible. Waiting time: 2576 ms.
+2025-12-07 19:18:59 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> id: prompt]. Text sent: create post about caesar salad
+2025-12-07 19:18:59 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:18:59 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (c35b45ea7405abe3ab67e57b21bafd47)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:18:59 INFO  CustomButtonElement - Element became visible. Waiting time: 20 ms.
+2025-12-07 19:18:59 INFO  CustomButtonElement - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type="submit"]'
+2025-12-07 19:18:59 INFO  SavoraBO - Post creation completed. Post generated using prompt.
+2025-12-07 19:18:59 INFO  CustomAllureListener - Test Success: savoraCreatePostTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:18:59 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:18:59 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:18:59 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:18:59 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:18:59 INFO  CustomListener - On Execution Finish
+2025-12-07 19:23:22 INFO  CustomListener - On Execution Start
+2025-12-07 19:23:22 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:23:22 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:23:24 INFO  SavoraBO - Starting login sequence for user: john.test1.mail@gmail.com
+2025-12-07 19:23:25 DEBUG SavoraBO - Opened Savora Home Page.
+2025-12-07 19:23:25 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:23:25 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:23:25 INFO  CustomButtonElement - Element became visible. Waiting time: 35 ms.
+2025-12-07 19:23:25 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:23:25 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:23:25 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:23:25 INFO  CustomButtonElement - Element became visible. Waiting time: 21 ms.
+2025-12-07 19:23:25 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:23:25 DEBUG SavoraBO - Navigated to Login Page.
+2025-12-07 19:23:25 DEBUG CustomInputElement - Attempting to input text into element: john.test1.mail@gmail.com
+2025-12-07 19:23:25 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: email'
+2025-12-07 19:23:25 INFO  CustomInputElement - Input element became visible. Waiting time: 532 ms.
+2025-12-07 19:23:25 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> id: email]. Text sent: john.test1.mail@gmail.com
+2025-12-07 19:23:25 DEBUG CustomInputElement - Attempting to input text into element: 1qaz!QAZ
+2025-12-07 19:23:25 DEBUG CustomInputElement - Waiting for input element to be visible: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> id: password]
+2025-12-07 19:23:25 INFO  CustomInputElement - Input element became visible. Waiting time: 19 ms.
+2025-12-07 19:23:25 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> id: password]. Text sent: 1qaz!QAZ
+2025-12-07 19:23:25 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:23:25 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:23:25 INFO  CustomButtonElement - Element became visible. Waiting time: 20 ms.
+2025-12-07 19:23:26 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:23:26 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:23:26 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:23:26 INFO  CustomButtonElement - Element became visible. Waiting time: 18 ms.
+2025-12-07 19:23:26 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:23:26 INFO  SavoraBO - Login sequence completed for user: john.test1.mail@gmail.com
+2025-12-07 19:23:26 INFO  SavoraBO - Starting post creation with prompt: create post about caesar salad
+2025-12-07 19:23:26 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:23:26 DEBUG CustomButtonElement - Waiting for element to be visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href="/dashboard/create-post/ai"]'
+2025-12-07 19:23:27 INFO  CustomButtonElement - Element became visible. Waiting time: 1565 ms.
+2025-12-07 19:23:27 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //a[@href="/dashboard/create-post/ai"]]
+2025-12-07 19:23:27 DEBUG SavoraBO - Navigated to Post Generation Page.
+2025-12-07 19:23:27 DEBUG CustomInputElement - Attempting to input text into element: create post about caesar salad
+2025-12-07 19:23:27 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: prompt'
+2025-12-07 19:23:29 INFO  CustomInputElement - Input element became visible. Waiting time: 1573 ms.
+2025-12-07 19:23:29 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> id: prompt]. Text sent: create post about caesar salad
+2025-12-07 19:23:29 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:23:29 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (1ea0db7c6a17906207e1ed84e8393db6)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:23:29 INFO  CustomButtonElement - Element became visible. Waiting time: 14 ms.
+2025-12-07 19:23:29 INFO  CustomButtonElement - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type="submit"]'
+2025-12-07 19:23:29 INFO  SavoraBO - Post creation completed. Post generated using prompt.
+2025-12-07 19:23:29 INFO  CustomAllureListener - Test Success: savoraCreatePostTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:23:29 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:23:29 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:23:29 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:23:29 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:23:29 INFO  CustomListener - On Execution Finish
+2025-12-07 19:52:53 INFO  CustomListener - On Execution Start
+2025-12-07 19:52:53 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:52:53 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:52:55 INFO  SavoraBO - Starting login sequence for user: john.test1.mail@gmail.com
+2025-12-07 19:52:58 DEBUG SavoraBO - Opened Savora Home Page.
+2025-12-07 19:52:58 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:52:58 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:52:58 INFO  CustomButtonElement - Element became visible. Waiting time: 38 ms.
+2025-12-07 19:52:58 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:52:58 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:52:58 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:52:58 INFO  CustomButtonElement - Element became visible. Waiting time: 39 ms.
+2025-12-07 19:52:58 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:52:58 DEBUG SavoraBO - Navigated to Login Page.
+2025-12-07 19:52:58 DEBUG CustomInputElement - Attempting to input text into element: john.test1.mail@gmail.com
+2025-12-07 19:52:58 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: email'
+2025-12-07 19:52:59 INFO  CustomInputElement - Input element became visible. Waiting time: 560 ms.
+2025-12-07 19:52:59 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> id: email]. Text sent: john.test1.mail@gmail.com
+2025-12-07 19:52:59 DEBUG CustomInputElement - Attempting to input text into element: 1qaz!QAZ
+2025-12-07 19:52:59 DEBUG CustomInputElement - Waiting for input element to be visible: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> id: password]
+2025-12-07 19:52:59 INFO  CustomInputElement - Input element became visible. Waiting time: 22 ms.
+2025-12-07 19:52:59 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> id: password]. Text sent: 1qaz!QAZ
+2025-12-07 19:52:59 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:52:59 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:52:59 INFO  CustomButtonElement - Element became visible. Waiting time: 21 ms.
+2025-12-07 19:52:59 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:52:59 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:52:59 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:52:59 INFO  CustomButtonElement - Element became visible. Waiting time: 24 ms.
+2025-12-07 19:52:59 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:52:59 INFO  SavoraBO - Login sequence completed for user: john.test1.mail@gmail.com
+2025-12-07 19:52:59 INFO  SavoraBO - Starting post creation with prompt: create post about milkshake
+2025-12-07 19:52:59 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:52:59 DEBUG CustomButtonElement - Waiting for element to be visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href="/dashboard/create-post/ai"]'
+2025-12-07 19:53:01 INFO  CustomButtonElement - Element became visible. Waiting time: 2080 ms.
+2025-12-07 19:53:01 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //a[@href="/dashboard/create-post/ai"]]
+2025-12-07 19:53:01 DEBUG SavoraBO - Navigated to Post Generation Page.
+2025-12-07 19:53:01 DEBUG CustomInputElement - Attempting to input text into element: create post about milkshake
+2025-12-07 19:53:01 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: prompt'
+2025-12-07 19:53:03 INFO  CustomInputElement - Input element became visible. Waiting time: 2072 ms.
+2025-12-07 19:53:03 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> id: prompt]. Text sent: create post about milkshake
+2025-12-07 19:53:03 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:53:03 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:53:03 INFO  CustomButtonElement - Element became visible. Waiting time: 21 ms.
+2025-12-07 19:53:03 INFO  CustomButtonElement - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type="submit"]'
+2025-12-07 19:53:03 INFO  SavoraBO - Post creation completed. Post generated using prompt.
+2025-12-07 19:53:08 INFO  SavoraBO - Starting post deletion for ID: 
+2025-12-07 19:53:08 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:53:08 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (6ee57ee5163d5558bcaf54e170aa3e20)] -> xpath: //button[@type="button"]]
+2025-12-07 19:53:08 INFO  CustomButtonElement - Element became visible. Waiting time: 17 ms.
+2025-12-07 19:53:08 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:53:08 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:53:08 ERROR CustomAllureListener - Test Failure: savoraPostDeleteTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:53:08 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:53:09 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:53:09 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:53:09 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:53:09 INFO  CustomListener - On Execution Finish
+2025-12-07 19:56:26 INFO  CustomListener - On Execution Start
+2025-12-07 19:56:26 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:56:26 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:56:28 INFO  SavoraBO - Starting login sequence for user: john.test1.mail@gmail.com
+2025-12-07 19:56:29 DEBUG SavoraBO - Opened Savora Home Page.
+2025-12-07 19:56:29 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:56:29 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:56:29 INFO  CustomButtonElement - Element became visible. Waiting time: 40 ms.
+2025-12-07 19:56:29 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:56:29 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:56:29 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:56:29 INFO  CustomButtonElement - Element became visible. Waiting time: 26 ms.
+2025-12-07 19:56:29 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:56:29 DEBUG SavoraBO - Navigated to Login Page.
+2025-12-07 19:56:29 DEBUG CustomInputElement - Attempting to input text into element: john.test1.mail@gmail.com
+2025-12-07 19:56:29 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: email'
+2025-12-07 19:56:30 INFO  CustomInputElement - Input element became visible. Waiting time: 542 ms.
+2025-12-07 19:56:30 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> id: email]. Text sent: john.test1.mail@gmail.com
+2025-12-07 19:56:30 DEBUG CustomInputElement - Attempting to input text into element: 1qaz!QAZ
+2025-12-07 19:56:30 DEBUG CustomInputElement - Waiting for input element to be visible: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> id: password]
+2025-12-07 19:56:30 INFO  CustomInputElement - Input element became visible. Waiting time: 27 ms.
+2025-12-07 19:56:30 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> id: password]. Text sent: 1qaz!QAZ
+2025-12-07 19:56:30 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:56:30 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:56:30 INFO  CustomButtonElement - Element became visible. Waiting time: 27 ms.
+2025-12-07 19:56:30 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:56:30 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:56:30 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:56:30 INFO  CustomButtonElement - Element became visible. Waiting time: 26 ms.
+2025-12-07 19:56:30 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:56:30 INFO  SavoraBO - Login sequence completed for user: john.test1.mail@gmail.com
+2025-12-07 19:56:30 INFO  SavoraBO - Starting post creation with prompt: create post about milkshake
+2025-12-07 19:56:30 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:56:30 DEBUG CustomButtonElement - Waiting for element to be visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href="/dashboard/create-post/ai"]'
+2025-12-07 19:56:32 INFO  CustomButtonElement - Element became visible. Waiting time: 1592 ms.
+2025-12-07 19:56:32 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //a[@href="/dashboard/create-post/ai"]]
+2025-12-07 19:56:32 DEBUG SavoraBO - Navigated to Post Generation Page.
+2025-12-07 19:56:32 DEBUG CustomInputElement - Attempting to input text into element: create post about milkshake
+2025-12-07 19:56:32 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: prompt'
+2025-12-07 19:56:34 INFO  CustomInputElement - Input element became visible. Waiting time: 2089 ms.
+2025-12-07 19:56:34 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> id: prompt]. Text sent: create post about milkshake
+2025-12-07 19:56:34 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:56:34 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:56:34 INFO  CustomButtonElement - Element became visible. Waiting time: 20 ms.
+2025-12-07 19:56:34 INFO  CustomButtonElement - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type="submit"]'
+2025-12-07 19:56:34 INFO  SavoraBO - Post creation completed. Post generated using prompt.
+2025-12-07 19:56:39 INFO  SavoraBO - Starting post deletion.
+2025-12-07 19:56:39 DEBUG SavoraBO - Deleting Post...
+2025-12-07 19:56:39 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:56:39 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (0ae6892e529614fc11f7374c8d4a76c9)] -> xpath: //button[@type="button"]]
+2025-12-07 19:56:39 INFO  CustomButtonElement - Element became visible. Waiting time: 25 ms.
+2025-12-07 19:56:39 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:56:39 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:56:39 ERROR CustomAllureListener - Test Failure: savoraPostDeleteTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:56:39 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:56:39 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:56:39 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:56:39 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:56:39 INFO  CustomListener - On Execution Finish
+2025-12-07 19:57:13 INFO  CustomListener - On Execution Start
+2025-12-07 19:57:13 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:57:13 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:57:14 INFO  SavoraBO - Starting login sequence for user: john.test1.mail@gmail.com
+2025-12-07 19:57:15 DEBUG SavoraBO - Opened Savora Home Page.
+2025-12-07 19:57:15 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:57:15 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:57:15 INFO  CustomButtonElement - Element became visible. Waiting time: 37 ms.
+2025-12-07 19:57:15 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:57:15 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:57:15 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:57:16 INFO  CustomButtonElement - Element became visible. Waiting time: 540 ms.
+2025-12-07 19:57:16 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:57:16 DEBUG SavoraBO - Navigated to Login Page.
+2025-12-07 19:57:16 DEBUG CustomInputElement - Attempting to input text into element: john.test1.mail@gmail.com
+2025-12-07 19:57:16 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: email'
+2025-12-07 19:57:16 INFO  CustomInputElement - Input element became visible. Waiting time: 543 ms.
+2025-12-07 19:57:16 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> id: email]. Text sent: john.test1.mail@gmail.com
+2025-12-07 19:57:16 DEBUG CustomInputElement - Attempting to input text into element: 1qaz!QAZ
+2025-12-07 19:57:16 DEBUG CustomInputElement - Waiting for input element to be visible: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> id: password]
+2025-12-07 19:57:16 INFO  CustomInputElement - Input element became visible. Waiting time: 22 ms.
+2025-12-07 19:57:16 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> id: password]. Text sent: 1qaz!QAZ
+2025-12-07 19:57:16 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:57:16 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:57:16 INFO  CustomButtonElement - Element became visible. Waiting time: 19 ms.
+2025-12-07 19:57:16 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:57:16 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:57:16 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:57:16 INFO  CustomButtonElement - Element became visible. Waiting time: 41 ms.
+2025-12-07 19:57:16 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:57:16 INFO  SavoraBO - Login sequence completed for user: john.test1.mail@gmail.com
+2025-12-07 19:57:16 INFO  SavoraBO - Starting post creation with prompt: create post about milkshake
+2025-12-07 19:57:16 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:57:16 DEBUG CustomButtonElement - Waiting for element to be visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href="/dashboard/create-post/ai"]'
+2025-12-07 19:57:18 INFO  CustomButtonElement - Element became visible. Waiting time: 1561 ms.
+2025-12-07 19:57:18 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //a[@href="/dashboard/create-post/ai"]]
+2025-12-07 19:57:18 DEBUG SavoraBO - Navigated to Post Generation Page.
+2025-12-07 19:57:18 DEBUG CustomInputElement - Attempting to input text into element: create post about milkshake
+2025-12-07 19:57:18 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: prompt'
+2025-12-07 19:57:20 INFO  CustomInputElement - Input element became visible. Waiting time: 1559 ms.
+2025-12-07 19:57:20 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> id: prompt]. Text sent: create post about milkshake
+2025-12-07 19:57:20 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:57:20 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:57:20 INFO  CustomButtonElement - Element became visible. Waiting time: 19 ms.
+2025-12-07 19:57:20 INFO  CustomButtonElement - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type="submit"]'
+2025-12-07 19:57:20 INFO  SavoraBO - Post creation completed. Post generated using prompt.
+2025-12-07 19:57:25 INFO  SavoraBO - Starting post deletion.
+2025-12-07 19:57:25 DEBUG SavoraBO - Deleting Post...
+2025-12-07 19:57:25 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:57:25 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (57256edd2fac8bcfaa68b723519dfcf2)] -> xpath: //button[@type="button"]]
+2025-12-07 19:57:25 INFO  CustomButtonElement - Element became visible. Waiting time: 23 ms.
+2025-12-07 19:57:25 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:57:25 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:57:25 ERROR CustomAllureListener - Test Failure: savoraPostDeleteTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:57:25 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:57:25 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:57:25 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:57:25 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:57:25 INFO  CustomListener - On Execution Finish
+2025-12-07 19:59:38 INFO  CustomListener - On Execution Start
+2025-12-07 19:59:38 INFO  CustomListener - On Suite Start: Default Suite
+2025-12-07 19:59:38 INFO  CustomListener - On Test Start: Exam
+2025-12-07 19:59:40 INFO  SavoraBO - Starting login sequence for user: john.test1.mail@gmail.com
+2025-12-07 19:59:40 DEBUG SavoraBO - Opened Savora Home Page.
+2025-12-07 19:59:40 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:40 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:59:40 INFO  CustomButtonElement - Element became visible. Waiting time: 39 ms.
+2025-12-07 19:59:41 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //div/span[.="User menu"]/..]
+2025-12-07 19:59:41 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:41 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:59:41 INFO  CustomButtonElement - Element became visible. Waiting time: 546 ms.
+2025-12-07 19:59:41 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //div/span[.="Login"]/..]
+2025-12-07 19:59:41 DEBUG SavoraBO - Navigated to Login Page.
+2025-12-07 19:59:41 DEBUG CustomInputElement - Attempting to input text into element: john.test1.mail@gmail.com
+2025-12-07 19:59:41 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: email'
+2025-12-07 19:59:42 INFO  CustomInputElement - Input element became visible. Waiting time: 534 ms.
+2025-12-07 19:59:42 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> id: email]. Text sent: john.test1.mail@gmail.com
+2025-12-07 19:59:42 DEBUG CustomInputElement - Attempting to input text into element: 1qaz!QAZ
+2025-12-07 19:59:42 DEBUG CustomInputElement - Waiting for input element to be visible: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> id: password]
+2025-12-07 19:59:42 INFO  CustomInputElement - Input element became visible. Waiting time: 24 ms.
+2025-12-07 19:59:42 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> id: password]. Text sent: 1qaz!QAZ
+2025-12-07 19:59:42 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:42 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:59:42 INFO  CustomButtonElement - Element became visible. Waiting time: 27 ms.
+2025-12-07 19:59:42 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:59:42 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:42 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:59:42 INFO  CustomButtonElement - Element became visible. Waiting time: 21 ms.
+2025-12-07 19:59:42 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: /html/body/header/nav/a/div/img]
+2025-12-07 19:59:42 INFO  SavoraBO - Login sequence completed for user: john.test1.mail@gmail.com
+2025-12-07 19:59:42 INFO  SavoraBO - Starting post creation with prompt: create post about milkshake
+2025-12-07 19:59:42 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:42 DEBUG CustomButtonElement - Waiting for element to be visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href="/dashboard/create-post/ai"]'
+2025-12-07 19:59:44 INFO  CustomButtonElement - Element became visible. Waiting time: 1556 ms.
+2025-12-07 19:59:44 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //a[@href="/dashboard/create-post/ai"]]
+2025-12-07 19:59:44 DEBUG SavoraBO - Navigated to Post Generation Page.
+2025-12-07 19:59:44 DEBUG CustomInputElement - Attempting to input text into element: create post about milkshake
+2025-12-07 19:59:44 DEBUG CustomInputElement - Waiting for input element to be visible: Proxy element for: DefaultElementLocator 'By.id: prompt'
+2025-12-07 19:59:45 INFO  CustomInputElement - Input element became visible. Waiting time: 1563 ms.
+2025-12-07 19:59:45 INFO  CustomInputElement - Sending keys to element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> id: prompt]. Text sent: create post about milkshake
+2025-12-07 19:59:45 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:45 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: //button[@type="submit"]]
+2025-12-07 19:59:45 INFO  CustomButtonElement - Element became visible. Waiting time: 20 ms.
+2025-12-07 19:59:45 INFO  CustomButtonElement - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type="submit"]'
+2025-12-07 19:59:45 INFO  SavoraBO - Post creation completed. Post generated using prompt.
+2025-12-07 19:59:45 INFO  SavoraBO - Attempting to Like and Save Post.
+2025-12-07 19:59:45 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:45 DEBUG CustomButtonElement - Waiting for element to be visible: Proxy element for: DefaultElementLocator 'By.xpath: /html/body/main/div/div/div[2]/div[3]/div[2]/div/button[1]'
+2025-12-07 19:59:50 INFO  CustomButtonElement - Element became visible. Waiting time: 4643 ms.
+2025-12-07 19:59:50 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: /html/body/main/div/div/div[2]/div[3]/div[2]/div/button[1]]
+2025-12-07 19:59:50 DEBUG SavoraBO - Post liked.
+2025-12-07 19:59:50 DEBUG CustomButtonElement - Attempting to click button element.
+2025-12-07 19:59:50 DEBUG CustomButtonElement - Waiting for element to be visible: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: /html/body/main/div/div/div[2]/div[3]/div[2]/div/button[2]]
+2025-12-07 19:59:50 INFO  CustomButtonElement - Element became visible. Waiting time: 18 ms.
+2025-12-07 19:59:50 INFO  CustomButtonElement - Clicked on element: [[ChromeDriver: chrome on windows (9c4e49b79ffc823bb1d3c41f541eae86)] -> xpath: /html/body/main/div/div/div[2]/div[3]/div[2]/div/button[2]]
+2025-12-07 19:59:50 INFO  SavoraBO - Post saved.
+2025-12-07 19:59:50 INFO  CustomAllureListener - Test Success: savoraPostLikeAndSaveTest. Attaching screenshot and DOM to Allure report.
+2025-12-07 19:59:50 DEBUG CustomAllureListener - Attempting to capture screenshot...
+2025-12-07 19:59:50 DEBUG CustomAllureListener - Attempting to capture DOM source.
+2025-12-07 19:59:50 INFO  CustomListener - On Test Finish: Exam
+2025-12-07 19:59:50 INFO  CustomListener - On Suite Finish: Default Suite
+2025-12-07 19:59:50 INFO  CustomListener - On Execution Finish

@@ -17,8 +17,9 @@ public class SavoraPostDeleteTest {
         User generatedUser = UserProvider.generateUser();
 
         new SavoraBO()
-                .logout() // Uncomment for Allure Report
+//                .logout() // Uncomment for Allure Report
                 .login(generatedUser.getEmail(), generatedUser.getPassword())
-                .deletePost("0d9f0e7b-8b5e-43e2-bce5-7d1bfa5956f2");
+                .createPost("create post about milkshake")
+                .deletePost();
     }
 }

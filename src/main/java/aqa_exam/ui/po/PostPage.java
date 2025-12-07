@@ -51,11 +51,11 @@ public class PostPage extends BasePage {
     public void deletePost() {
         deleteButton.waitForMeAndClick();
 
-//        WebDriverWait wait = new WebDriverWait(DriverPool.getDriver(), Duration.ofSeconds(10));
-//        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-//        alert.accept();
+        WebDriverWait wait = new WebDriverWait(DriverPool.getDriver(), Duration.ofSeconds(10));
+        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+        alert.accept();
 
-        Alert alert = DriverPool.getDriver().switchTo().alert();
+//        Alert alert = DriverPool.getDriver().switchTo().alert();
         alert.accept();
     }
 

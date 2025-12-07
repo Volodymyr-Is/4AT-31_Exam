@@ -52,47 +52,51 @@ public class SavoraBO {
         return this;
     }
 
-    public SavoraBO deletePost(String id) {
-        LOGGER.info("Starting post deletion for ID: " + id);
-        PostPage PostPage = new PostPage();
-        PostPage.openPostPage(id);
-
-        LOGGER.debug("Opened Post Page for ID: " + id);
-        PostPage.deletePost();
-
-        LOGGER.info("Post with ID " + id + " successfully deleted.");
-        return this;
-    }
-
-    public SavoraBO likeAndSavePost(String id) {
-        LOGGER.info("Attempting to Like and Save Post with ID: " + id);
-        PostPage PostPage = new PostPage();
-        PostPage.openPostPage(id);
-        PostPage.likePost();
-        LOGGER.debug("Post " + id + " liked.");
-
-        PostPage.savePost();
-        LOGGER.info("Post " + id + " saved.");
-        return this;
-    }
-
-    public SavoraBO verifyUserLogged() {
-        final String expectedUrl = "https://savora-sm.vercel.app/dashboard";
-
-        LOGGER.info("Verifying user is logged in and on the Dashboard.");
-
-        DriverPool.getDriver().navigate().to(expectedUrl);
-        String currentUrl = DriverPool.getDriver().getCurrentUrl();
-
-        if (!currentUrl.equals(expectedUrl)) {
-            LOGGER.error("Verification FAILED! Expected URL: " + expectedUrl + ", but found URL: " + currentUrl);
-        } else {
-            LOGGER.info("Verification SUCCESS! User is correctly logged in on Dashboard (" + currentUrl + ").");
+    public SavoraBO deletePost() {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
-        Assert.assertEquals(currentUrl, expectedUrl, "User not Logged in");
+        LOGGER.info("Starting post deletion.");
+        PostPage PostPage = new PostPage();
+
+        LOGGER.debug("Deleting Post...");
+        PostPage.deletePost();
+
+        LOGGER.info("Post successfully deleted.");
         return this;
     }
+
+    public SavoraBO likeAndSavePost() {
+        LOGGER.info("Attempting to Like and Save Post...");
+        PostPage PostPage = new PostPage();
+        PostPage.likePost();
+        LOGGER.debug("Post liked.");
+
+        PostPage.savePost();
+        LOGGER.info("Post saved.");
+        return this;
+    }
+
+//    public SavoraBO verifyUserLogged() {
+//        final String expectedUrl = "https://savora-sm.vercel.app/dashboard";
+//
+//        LOGGER.info("Verifying user is logged in and on the Dashboard.");
+//
+//        DriverPool.getDriver().navigate().to(expectedUrl);
+//        String currentUrl = DriverPool.getDriver().getCurrentUrl();
+//
+//        if (!currentUrl.equals(expectedUrl)) {
+//            LOGGER.error("Verification FAILED! Expected URL: " + expectedUrl + ", but found URL: " + currentUrl);
+//        } else {
+//            LOGGER.info("Verification SUCCESS! User is correctly logged in on Dashboard (" + currentUrl + ").");
+//        }
+//
+//        Assert.assertEquals(currentUrl, expectedUrl, "User not Logged in");
+//        return this;
+//    }
 
     public SavoraBO logout() {
 
